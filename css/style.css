@@ -48,7 +48,12 @@ h2{
 footer{
   background-color: rgb(134, 207, 230);
   color: black;
+  padding-top: 30px;
   text-align: center;
+  bottom:0;
+  width:100%;
+  height: 2.5rem; 
+  margin-top: auto;
 
 }
 
@@ -68,9 +73,10 @@ nav a{
   text-decoration: none;
 }
 .nav .current{
-  background-color: #c3b2eb;
+  background-color: white;
   text-decoration: underline;
   font-weight: bolder;
+  
 
 }
 p, h1, h2 {
@@ -84,12 +90,15 @@ nav li{
 
 .photos{
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
-  grid-template-rows: auto auto auto;
-  height: 95%;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto;
+  height: 100%;
   width: 95%;
   margin: auto;
+  margin-top: 15px;
   margin-bottom: 15px;
+  
+  
 }
 
 .photos div{
@@ -103,26 +112,26 @@ nav li{
 .in-photos img{
   width: 90%;
   height: auto;
-}
-#page-container{
-  position: relative;
-min-height: 100vh;}
-
-#content-wrap{
-  padding-bottom: 2.5rem;
-}
-#footer{
-  position: fixed;
-  bottom: 0;
-  width:100%;
-  height: 2.5rem;
-  margin-top: auto;
   
+
 }
+
+/* #footer{ */
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* width:100%; */
+  /* height: 2.5rem; */
+  /* margin-top: auto; */
+  
+/* } */
 
 #gc-logo{
   height: 250px;
   width: auto;
+}
+#mail{
+  height: 10px;
+  width:auto;
 }
 
 #resume{
