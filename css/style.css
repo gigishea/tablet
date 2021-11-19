@@ -163,13 +163,13 @@ min-height: 100vh;}
 @media only screen and (min-width: 768px){
   .photos{
       display: grid;
-      grid-template-columns: minmax(0, 1fr)minmax(0, 1fr);
-      grid-template-rows: auto auto;
-      height: 100%;
+      grid-template-columns: minmax(0, 1fr)minmax(0, 1fr)minmax(0,1fr);
+      grid-template-rows: auto auto auto;
       width: 95%;
+      height: 100%;
       margin: auto;
-      margin-bottom: 20px;
       margin-top: 20px;
+      margin-bottom: 20px;
   }
 }
 
@@ -179,11 +179,11 @@ min-height: 100vh;}
       display: grid;
       grid-template-columns: minmax(0, 1fr)minmax(0, 1fr)minmax(0, 1fr);
       grid-template-rows: auto auto auto;
-      height: 100%;
       width: 95%;
+      height: 100%;
       margin: auto;
-      margin-bottom: 15px;
-      margin-top: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
   }
 }
 
