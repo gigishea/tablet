@@ -1,0 +1,189 @@
+/***** STARTER CODE - DO NOT CHANGE *****/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(238, 235, 235);
+  color: #000000;
+  min-height: 100%;
+  
+ 
+}
+main{
+  text-align: center;
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+}
+.skip a{
+  background: white;
+  left: 20%;
+  padding: 8px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+}
+
+.skip a:focus{
+  top:0;
+}
+
+*:focus{
+  border: solid 2px white;
+}
+
+.footer img{
+  height: 15px;
+  width:15px;
+}
+
+footer{
+  background-color: rgb(134, 207, 230);
+  color: black;
+  text-align: center;
+
+}
+
+
+
+
+nav{
+  background-color: rgb(134, 207, 230);   
+  padding: 10px;
+  text-align: left;   
+}
+nav ul{
+  list-style-type: none;
+}
+nav a{
+  color: #000000;
+  text-decoration: none;
+}
+.nav .current{
+  background-color: #c3b2eb;
+  text-decoration: underline;
+  font-weight: bolder;
+
+}
+p, h1, h2 {
+  padding: 10px;
+}
+
+nav li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.photos{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto auto auto;
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.photos div{
+  background-color: #c3b2eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.in-photos img{
+  width: 90%;
+  height: auto;
+}
+#page-container{
+  position: relative;
+min-height: 100vh;}
+
+#content-wrap{
+  padding-bottom: 2.5rem;
+}
+#footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  height: 2.5rem;
+  margin-top: auto;
+  
+}
+
+#gc-logo{
+  height: 250px;
+  width: auto;
+}
+
+#resume{
+  height: 250px;
+  width: auto;
+}
+
+#li{
+  height: 250px;
+  width: auto;
+  align-items: center;
+}
+
+#aboutme{
+  height: 160px;
+  width:auto;
+}
+#prom{
+  height: 200px;
+  width: auto;
+}
+
+#nymets{
+  height: 250px;
+  width: auto;
+}
+
+@media only screen and (max-width: 992px){
+  .nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .photos{
+      display: grid;
+      grid-template-columns: minmax(0, 1fr)minmax(0, 1fr);
+      grid-template-rows: auto auto;
+      height: 100%;
+      width: 95%;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+
+  .photos{
+      display: grid;
+      grid-template-columns: minmax(0, 1fr)minmax(0, 1fr)minmax(0, 1fr);
+      grid-template-rows: auto auto auto;
+      height: 100%;
+      width: 95%;
+      margin: auto;
+      margin-bottom: 15px;
+      margin-top: 15px;
+  }
+}
+
